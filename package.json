@@ -1,0 +1,22 @@
+{
+  "name": "multi-site-generator",
+  "version": "1.0.0",
+  "description": "Generate multiple React websites from CSV data",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "keywords": [
+    "react",
+    "generator",
+    "csv",
+    "multi-site"
+  ],
+  "author": "",
+  "license": "MIT"
+}
